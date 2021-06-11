@@ -2,8 +2,6 @@
 
 namespace Models;
 
-// require ('vendor/autoload.php');
-
 use Setup\Db\DbConnection;
 
 class Task 
