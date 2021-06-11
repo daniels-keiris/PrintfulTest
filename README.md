@@ -8,3 +8,8 @@ ToDoList with PHP
   - Upload 'db_todo.sql' file in 'ToDoList' database to create tables
   - Change username and password in DbConnection.php file to what your credentials will be to connect to the database
   - Launch the built-in web server with command - "php -S localhost:8000"
+  - Install composer with command - "composer install"
+  - Then execute the command - "composer dumpautoload -o"
+
+
+  Pictures are located in the screenshot folder with all the views.

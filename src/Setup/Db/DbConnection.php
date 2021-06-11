@@ -8,7 +8,9 @@ class DbConnection
     private $host;
     private $pass;
     private $database;
-
+    /**
+     * Create credentials for the database connection
+     */
     public function __construct()
     {
         $this->host = 'localhost';
@@ -16,7 +18,9 @@ class DbConnection
         $this->pass = 'password';
         $this->database = 'ToDoList';
     }
-
+    /**
+     * Create a connection with the database
+     */
     public function connect()
     {
 
