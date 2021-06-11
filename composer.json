@@ -1,0 +1,10 @@
+{
+    "autoload": {
+      "psr-4": {
+        "Setup\\Db\\":"src/Setup/Db/",
+        "Controllers\\":"src/Controllers/",
+        "Models\\":"src/Models/"
+      },
+      "classmap": ["src/"]
+    }
+}
