@@ -2,7 +2,6 @@
 
 session_start();
 
-require 'vendor/autoload.php';
 require_once "header.php";
 
 use Controllers\TaskController;
@@ -48,12 +47,6 @@ use Setup\Db\DbConnection;
                 data: {
                     id: taskid,
                     status: status
-                },
-                success: function(data) {
-                    console.log(data.firstmessage)
-                },
-                error: function(data) {
-                    alert(data);
                 }
             });                
         });

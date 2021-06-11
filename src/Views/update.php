@@ -2,7 +2,7 @@
 
 session_start();
 
-require ('../../vendor/autoload.php'); // TODO: without this create submit does not work, fix when possible w/ proper autoload
+require ('../../vendor/autoload.php');
 require_once "header.php";
 
 use Controllers\TaskController;

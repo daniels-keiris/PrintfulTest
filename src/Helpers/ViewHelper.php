@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Helper method to find appropriate view file path
+ */
 function view (string $view, array $variables = []): void 
 {
     $file = './src/Views/' . $view . '.php';
