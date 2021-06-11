@@ -52,3 +52,9 @@ use Setup\Db\DbConnection;
         });
     });
 </script>
+
+<?php
+
+require_once "footer.php";
+
+?>
